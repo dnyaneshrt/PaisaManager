@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6.5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="category"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#b11320"
+            android:textStyle="bold"
+            android:id="@+id/t11"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="date"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#b11320"
+            android:textStyle="bold"
+            android:id="@+id/t12"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="amount"
+            android:paddingLeft="15dp"
+            android:textSize="15sp"
+            android:textColor="#b11320"
+            android:textStyle="bold"
+            android:id="@+id/t13"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="description"
+            android:paddingLeft="5dp"
+            android:textSize="15sp"
+            android:textColor="#b11320"
+            android:textStyle="bold"
+            android:id="@+id/t14"/>
+</LinearLayout>
+</LinearLayout>

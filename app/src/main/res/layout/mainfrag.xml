@@ -1,0 +1,126 @@
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_marginTop="55dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:text="income"
+            android:id="@+id/income"
+            android:textSize="19.5sp"
+            android:background="#80cbc4"
+            android:textStyle="bold"
+
+            android:layout_margin="3dp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:text="all"
+            android:id="@+id/all"
+            android:textSize="19.5sp"
+            android:background="#80CBC4"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:text="expense"
+            android:id="@+id/expense"
+            android:textSize="19.5sp"
+            android:textStyle="bold"
+            android:background="#80CBC4"
+            android:layout_margin="3dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_margin="0.5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="category"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="#131958"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:background="#E0F2F1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="date"
+            android:paddingLeft="15dp"
+            android:textSize="17sp"
+            android:textColor="#131958"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:background="#E0F2F1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="amount"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textColor="#131958"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:background="#E0F2F1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="description"
+            android:paddingLeft="5dp"
+            android:textSize="17sp"
+            android:textColor="#131958"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:background="#E0F2F1"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lview"></ListView>
+    </LinearLayout>
+
+</LinearLayout>
